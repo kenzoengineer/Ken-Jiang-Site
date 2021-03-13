@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Ken-Jiang-Site/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/Ken-Jiang-Site/static/js/main.04fcb26b.chunk.js",
+    "main.js.map": "/Ken-Jiang-Site/static/js/main.04fcb26b.chunk.js.map",
+    "runtime-main.js": "/Ken-Jiang-Site/static/js/runtime-main.b05baf49.js",
+    "runtime-main.js.map": "/Ken-Jiang-Site/static/js/runtime-main.b05baf49.js.map",
+    "static/js/2.fa0434a9.chunk.js": "/Ken-Jiang-Site/static/js/2.fa0434a9.chunk.js",
+    "static/js/2.fa0434a9.chunk.js.map": "/Ken-Jiang-Site/static/js/2.fa0434a9.chunk.js.map",
+    "static/js/3.4a34e60f.chunk.js": "/Ken-Jiang-Site/static/js/3.4a34e60f.chunk.js",
+    "static/js/3.4a34e60f.chunk.js.map": "/Ken-Jiang-Site/static/js/3.4a34e60f.chunk.js.map",
+    "index.html": "/Ken-Jiang-Site/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/Ken-Jiang-Site/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.fa0434a9.chunk.js.LICENSE.txt": "/Ken-Jiang-Site/static/js/2.fa0434a9.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Ken-Jiang-Site/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b05baf49.js",
+    "static/js/2.fa0434a9.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.04fcb26b.chunk.js"
+  ]
+}
