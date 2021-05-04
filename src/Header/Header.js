@@ -16,7 +16,7 @@ library.add(fab, fas);
           </div>
         </div>
         <div className="Right-Cell">
-          <img src="https://via.placeholder.com/300/09f/fff.png" alt="Ken Jiang"></img>
+          <img src="https://via.placeholder.com/300/09f/fff.png" alt="Ken Jiang" className="Title-Img"></img>
         </div>
       </div>
     );

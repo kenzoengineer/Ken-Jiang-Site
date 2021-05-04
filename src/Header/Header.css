@@ -43,7 +43,7 @@
     transition: 200ms;
   }
   
-  img {
+  .Title-Img {
     height: 50vmin;
     width: 50vmin;
   }

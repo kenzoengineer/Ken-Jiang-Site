@@ -1,0 +1,65 @@
+.Card-Container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--tertiary);
+    border-radius: 10px;
+    text-align: left;
+    min-width: 30vh;
+    margin: 1em;
+}
+
+.Card-Container:hover .Card-Content div{
+    color: var(--tertiary);
+    border-color: var(--tertiary);
+}
+.Card-Img {
+    width:100%;
+    height:12em;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.Card-Content {
+    padding:1em;
+}
+
+.Card-Content div {
+    transition: 200ms;
+}
+
+.Card-Title {
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.Card-Description {
+    color: var(--secondary);
+    padding-top:1em;
+    border-top: 1px var(--secondary) solid;
+}
+
+.Card-Text {
+    color:var(--primary);
+    font-style: italic;
+    height: 5em;
+}
+
+.Card-Footer {
+    border-top: 1px var(--secondary) solid;
+    padding-top: 0.2em;
+    color: var(--secondary);
+}
+
+.Card-Tooltip {
+    transform: translateY(-12em);
+}
+
+.Card-Tooltip div{
+    margin-top: -1em;
+    font-size: 0.8em!important;
+}
+
+.Card-Container:hover .Tool-Tip {
+    transition: 200ms;
+    opacity: 1;
+}

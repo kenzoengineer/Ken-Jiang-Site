@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './Header/Header';
 import Description from './Description/Description';
+import Experience from './Experience/Experience';
 function App() {
   return (
     <div className="App">
@@ -8,6 +9,7 @@ function App() {
         <Header/>
       </header>
       <Description/>
+      <Experience/>
     </div>
   );
 }

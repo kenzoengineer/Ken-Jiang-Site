@@ -1,0 +1,10 @@
+.Tool-Tip {
+    position: absolute;
+    display:inline-block;
+    padding: 1vmin;
+    opacity: 0;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    color:var(--primary);
+    z-index: 1;
+}
