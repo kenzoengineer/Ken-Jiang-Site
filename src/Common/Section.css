@@ -1,0 +1,21 @@
+
+
+.Section-Container {
+    display: flex;
+    margin-right:20vh;
+}
+@media only screen and (max-width: 900px) {
+    .Section-Container {
+        margin-right: 0px;
+    }
+}
+.Vertical-Text {
+    display: flex;
+    justify-content: center;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    font-style: italic;
+    color: var(--primary);
+    font-size: 5vmin;
+    padding: 10vmin;
+}
