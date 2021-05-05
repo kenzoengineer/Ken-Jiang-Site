@@ -28,4 +28,8 @@
 
 .Important {
     color: var(--important);
+    transition: 200ms;
+}
+.Important:hover {
+    color: var(--primary);
 }

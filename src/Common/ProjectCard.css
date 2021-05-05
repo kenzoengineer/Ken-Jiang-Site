@@ -1,0 +1,57 @@
+.ProjectCard-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--tertiary);
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em;
+    width: 17em;
+    height: 25em;
+}
+
+.ProjectCard-Content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.ProjectCard-Title {
+    color: var(--primary);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.ProjectCard-Description {
+    color: var(--primary);
+}
+
+.ProjectCard-Icons {
+    display: flex;
+    color: var(--secondary);
+    font-size: 1.5em;
+}
+
+.ProjectCard-Icons svg{
+    margin-right: 0.2em;
+}
+
+.ProjectCard-Button {
+    color: var(--tertiary);
+    background-color: var(--secondary);
+    border-radius: 7px;
+    font-size: 1.2em;
+    padding: 0.25em;
+    width: 9em;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.ProjectCard-Button:hover {
+    color: var(--tertiary);
+    background-color: var(--primary);
+}
+
+.ProjectCard-Button svg{
+    margin-left: 0.5em;
+}

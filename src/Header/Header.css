@@ -1,54 +1,68 @@
 .Title-Header-Text {
-    color: var(--primary);
-    font-size: 12vmin;
+  color: var(--primary);
+  font-size: 12vmin;
+  font-weight: bold;
+  font-style: italic;
 }
-  
-  .Body-Header-Text {
-    color: var(--secondary);
-    font-size: 4vmin;
-  }
-  
-  .Outer-Grid {
-    display: grid;
-    grid-template-columns: repeat(1, 50%);
-  }
-  
-  .Left-Cell {
-    grid-area: 1 / 1 / 2 / 2;
-    text-align: left;
-    display:flex;
-    align-items:center;
-  
-  }
-  
-  .Header-Text-Container {
-    padding-left: 2vh;
-    border-left: 1vmin solid var(--primary);
-  }
-  
-  .Right-Cell {
-    grid-area: 1 / 2 / 2 / 3;
-  }
 
-  .IconRow {
-    color:var(--secondary);
-  }
-  
-  .Icon {
-    margin-right:1em;
-  }
+.Body-Header-Text {
+  color: var(--secondary);
+  font-size: 4vmin;
+}
 
-  .Icon:hover {
-    color:var(--primary);
-    transition: 200ms;
-  }
-  
+.Outer-Grid {
+  display: grid;
+  grid-template-columns: repeat(1, 50%);
+}
+
+.Left-Cell {
+  grid-area: 1 / 1 / 2 / 2;
+  text-align: left;
+  display:flex;
+  align-items:center;
+
+}
+
+.Header-Text-Container {
+  padding-left: 2vh;
+  border-left: 1vmin solid var(--primary);
+}
+
+.Right-Cell {
+  grid-area: 1 / 2 / 2 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.IconRow {
+  color:var(--secondary);
+}
+
+.Icon {
+  margin-right:1em;
+  cursor: pointer;
+}
+
+.Icon:hover {
+  color:var(--primary);
+  transition: 200ms;
+}
+
+.Title-Img {
+  height: 50vmin;
+  width: 50vmin;
+  transition: 200ms;
+}
+
+a, a:hover, a:visited, a:active a:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1600px) {
   .Title-Img {
-    height: 50vmin;
-    width: 50vmin;
+    height: 40vmin;
+    width: 40vmin;
   }
-
-  a, a:hover, a:visited, a:active a:link {
-    color: inherit;
-    text-decoration: none;
-  }
+}

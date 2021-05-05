@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
+import ken from '../images/ken.png'
 library.add(fab, fas);
 
   function Header() {
@@ -10,13 +11,13 @@ library.add(fab, fas);
       <div className="Outer-Grid">
         <div className="Left-Cell">
           <div className="Header-Text-Container">
-            <Title text="Ken Jiang"/>
+            <Title text="KEN JIANG"/>
             <Body text="Computer engineering student at the University of Waterloo"/>
             <IconRows/>
           </div>
         </div>
         <div className="Right-Cell">
-          <img src="https://via.placeholder.com/300/09f/fff.png" alt="Ken Jiang" className="Title-Img"></img>
+          <img src={ken} alt="Ken Jiang" className="Title-Img"></img>
         </div>
       </div>
     );

@@ -4,7 +4,6 @@ import Tooltip from './Tooltip'
 function Card(props) {
     return (
         <div className="Card-Container">
-            
             <div className="Card-Content">
                 <img className="Card-Img" src={props.img} alt="card"></img>
                 <div className="Card-Description">{props.description}</div>
