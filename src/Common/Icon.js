@@ -7,6 +7,16 @@ import Tooltip from '../Common/Tooltip'
 library.add(fab, fas);
 
 function Icon(props) {
+    if (props.svg != null) {
+        return (
+            <div className="Icon-Container">
+                <img src={props.svg} alt={props.alt} width="50em" height="50em"></img>
+                <Tooltip>
+                    {props.alt}
+                </Tooltip>
+            </div>
+        );
+    }
     return (
         <div className="Icon-Container">
             <FontAwesomeIcon  icon={[props.type, props.icon]}/>

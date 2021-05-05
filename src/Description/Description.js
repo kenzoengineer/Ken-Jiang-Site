@@ -1,6 +1,8 @@
 import './Description.css'
 import Section from '../Common/Section'
 import Icon from '../Common/Icon'
+import blender from '../svgs/blender.svg'
+import photoshop from '../svgs/photoshop.svg'
 function Description() {
     return (
         <div className="Description">
@@ -36,9 +38,9 @@ function Content() {
             <IconRow title="Technologies">
                 <Icon type="fab" icon="unity" alt="Unity"/>
                 {/*photoshop*/}
-                <Icon type="fas" icon="crop" alt="Photoshop"/>
+                <Icon svg={photoshop} alt="Photoshop"/>
                 {/*blender*/}
-                <Icon type="fas" icon="cube" alt="Blender"/>
+                <Icon svg={blender} alt="Blender"/>
             </IconRow>
         </div>
     );

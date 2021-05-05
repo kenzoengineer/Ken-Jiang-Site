@@ -12,7 +12,7 @@ function Card(props) {
                 <div className="Card-Text">{props.text}</div>
                 <div className="Card-Footer">{props.footer}</div>
             </div>
-            <div class="Card-Tooltip">
+            <div className="Card-Tooltip">
                 <Tooltip className="Card-Tooltip">
                     {props.children}
                 </Tooltip>

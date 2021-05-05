@@ -13,9 +13,17 @@
     transition: 200ms;
 }
 
+.Icon-Container img {
+    transition: 200ms;
+}
+
 .Icon-Container:hover {
     color: #6f7583;
     background-color: #6f7583;
+}
+
+.Icon-Container:hover img {
+    opacity: 0;
 }
 
 .Icon-Container:hover .Tool-Tip {
