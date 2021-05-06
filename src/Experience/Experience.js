@@ -8,7 +8,7 @@ import hillhacks from '../svgs/hillhacks.svg'
 function Experience() {
     return (
         <div className="Experience">
-            <Section title="EXPEREINCE">
+            <Section title="EXPERIENCE">
                 <div>
                     <div className="Experience-Text">
                         <span className="Important">Hover over</span> the cards for more information.

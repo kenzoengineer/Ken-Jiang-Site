@@ -66,3 +66,16 @@ a, a:hover, a:visited, a:active a:link {
     width: 40vmin;
   }
 }
+
+.Chevron-Icon {
+  position: absolute;
+  bottom: 2em;
+  color:var(--primary);
+  animation: bounce 3s ease-in-out 0s infinite;
+}
+
+@keyframes bounce {
+  0% {transform: translateY(0);}
+  50% {transform: translateY(1em);}
+  100% {transform: translateY(0);}
+}
