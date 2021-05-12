@@ -18,12 +18,12 @@ function Navbar() {
 }
 
 function NavbarIcon(props) {
-    let style = {borderRadius: "0"};
-    if (props.s === "top") style = {borderRadius: "10px 10px 0 0"};
-    if (props.s === "botton") style = {borderRadius: "0 0 10px 10px"};
+    let className = 'Navbar-Icon';
+    if (props.s === "top") className += ' Navbar-Top';
+    if (props.s === "botton") className += ' Navbar-Bottom';
     return (
         <a href={props.href}>
-            <div className="Navbar-Icon" style={style}>
+            <div className={className}>
                 <div className="Navbar-Label">{props.children}</div>
                 <FontAwesomeIcon  icon={[props.type, props.icon]}/>
             </div>

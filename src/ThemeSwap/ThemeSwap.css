@@ -1,0 +1,36 @@
+.Theme-Container {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 14em;
+    right: 1em;
+    width: 2em;
+    height: 2em;
+    padding: 0.4em;
+    background-color: var(--secondary);
+    color: var(--background);
+    font-size: 1.5em;
+    border-radius: 50%;
+    z-index: 1;
+    transition: 200ms;
+}
+
+.Theme-Icon{
+    position: absolute;
+    clip: rect(0,1.5em,1.2em,0);
+}
+
+@keyframes swap {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(1.2em);}
+    100% {transform: translateY(0);}
+}
+
+
+@media only screen and (max-width: 1600px) {
+    .Theme-Container {
+        top: 1em;
+        right: 14em;
+    }
+}

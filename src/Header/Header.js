@@ -8,14 +8,6 @@ import React from 'react'
 library.add(fab, fas);
 
 function Header() {
-  function c(e) {
-    console.log('e');
-    var r = document.querySelector(':root');
-    r.style.setProperty('--primary', '#282c34');
-    r.style.setProperty('--secondary', '#59775a');
-    r.style.setProperty('--tertiary', '#9a9a9a');
-    r.style.setProperty('--background', '#cecece');
-  }
   return (
     <React.Fragment>
       <div className="Outer-Grid">
@@ -27,7 +19,7 @@ function Header() {
           </div>
         </div>
         <div className="Right-Cell">
-          <img onClick={c} src={ken} alt="Ken Jiang" className="Title-Img"></img>
+          <img src={ken} alt="Ken Jiang" className="Title-Img"></img>
         </div>
       </div>
       <a href="#ABOUT ME">

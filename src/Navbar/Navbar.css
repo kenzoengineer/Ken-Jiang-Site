@@ -7,6 +7,7 @@
     align-items: flex-end;
     color: var(--background);
     font-size: 1.5em;
+    z-index: 1;
 }
 
 .Navbar-Icon {
@@ -16,7 +17,6 @@
     padding: 0.5em;
     transition: 200ms;
     background-color: var(--secondary);
-    border-radius: 10px;
     height: 2em;
     width: 2em;
 }
@@ -37,17 +37,29 @@
     display: block;
 }
 
+.Navbar-Top {
+    border-radius: 10px 10px 0 0;
+}
+
+.Navbar-Bottom {
+    border-radius: 0 0 10px 10px;
+}
+
 @media only screen and (max-width: 1600px) {
     .Navbar-Container {
         flex-direction: row;
     }
 
-    .Navbar-Icon {
-        border-radius: 0px!important;
-    }
-
     .Navbar-Icon:hover .Navbar-Label{
         display: none;
+    }
+
+    .Navbar-Top {
+        border-radius: 10px 0 0 10px ;
+    }
+    
+    .Navbar-Bottom {
+        border-radius: 0 10px 10px 0;
     }
 
     .Navbar-Icon:hover {

@@ -1,5 +1,6 @@
 .Title-Header-Text {
   color: var(--primary);
+  font-family: 'Open Sans', 'Ubuntu', 'Oxygen', 'Helvetica Neue', sans-serif;
   font-size: 12vmin;
   font-weight: bold;
   font-style: italic;
