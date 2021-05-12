@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Ken-Jiang-Site/static/css/main.dd6d53c8.chunk.css",
+    "main.css": "/Ken-Jiang-Site/static/css/main.38413af7.chunk.css",
     "main.js": "/Ken-Jiang-Site/static/js/main.0716de7a.chunk.js",
     "main.js.map": "/Ken-Jiang-Site/static/js/main.0716de7a.chunk.js.map",
     "runtime-main.js": "/Ken-Jiang-Site/static/js/runtime-main.17c29600.js",
@@ -10,7 +10,7 @@
     "static/js/3.fe84cf4d.chunk.js": "/Ken-Jiang-Site/static/js/3.fe84cf4d.chunk.js",
     "static/js/3.fe84cf4d.chunk.js.map": "/Ken-Jiang-Site/static/js/3.fe84cf4d.chunk.js.map",
     "index.html": "/Ken-Jiang-Site/index.html",
-    "static/css/main.dd6d53c8.chunk.css.map": "/Ken-Jiang-Site/static/css/main.dd6d53c8.chunk.css.map",
+    "static/css/main.38413af7.chunk.css.map": "/Ken-Jiang-Site/static/css/main.38413af7.chunk.css.map",
     "static/js/2.88bd4ad0.chunk.js.LICENSE.txt": "/Ken-Jiang-Site/static/js/2.88bd4ad0.chunk.js.LICENSE.txt",
     "static/media/blender.2a395b5c.svg": "/Ken-Jiang-Site/static/media/blender.2a395b5c.svg",
     "static/media/hillhacks.687355dd.svg": "/Ken-Jiang-Site/static/media/hillhacks.687355dd.svg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.17c29600.js",
     "static/js/2.88bd4ad0.chunk.js",
-    "static/css/main.dd6d53c8.chunk.css",
+    "static/css/main.38413af7.chunk.css",
     "static/js/main.0716de7a.chunk.js"
   ]
 }
