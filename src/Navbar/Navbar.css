@@ -50,6 +50,12 @@
         flex-direction: row;
     }
 
+    .Navbar-Icon {
+        padding: 1em;
+        width: 0.5em;
+        height: 0.5em;
+    }
+
     .Navbar-Icon:hover .Navbar-Label{
         display: none;
     }
@@ -65,6 +71,6 @@
     .Navbar-Icon:hover {
         background-color: var(--tertiary);
         color: var(--primary);
-        width: 2em;
+        width: 1em;
     }
 }

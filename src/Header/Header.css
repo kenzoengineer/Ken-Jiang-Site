@@ -26,6 +26,7 @@
 
 .Header-Text-Container {
   padding-left: 2vh;
+  margin-left: 1vh;
   border-left: 1vmin solid var(--primary);
 }
 
