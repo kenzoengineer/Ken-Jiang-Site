@@ -9,6 +9,7 @@ function Projects() {
     let beeBrawlIcons = [{type:'fab',icon:'unity'},{type:'fas',icon:'hashtag'}];
     let yrhacksIcons = [{type:'fab',icon:'python'}]
     let beeBrawlSiteIcons = [{type:'fab',icon:'js'},{type:'fab',icon:'html5'},{type:'fab',icon:'css3-alt'},{type:'fab',icon:'bootstrap'}];
+    let textTrackerIcons = [{type:'fas', icon:'leaf'}];
     return (
         <div className="Projects">
             <Section title="PROJECTS">
@@ -47,6 +48,9 @@ function Projects() {
                         <p>- Used Bootstrap's library for simple page layout</p>
                         <p>- Used JQuery for simple syntactic sugar</p>
                         <p>- Deployed the site live using Amazon Amplify (Currently offline, instead deployed on github pages)</p>
+                    </ProjectCard>
+                    <ProjectCard title="TextTracker" icons={textTrackerIcons} a="https://github.com/kenzoengineer/TextTracker">
+                        <p>- test</p>
                     </ProjectCard>
                 </div>
             </Section>
