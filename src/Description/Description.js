@@ -46,6 +46,7 @@ function Content() {
                 <Icon svg={photoshop} alt="Photoshop"/>
                 {/*blender*/}
                 <Icon svg={blender} alt="Blender"/>
+                <Icon type="fab" icon="docker" alt="Docker"/>
             </IconRow>
         </div>
     );

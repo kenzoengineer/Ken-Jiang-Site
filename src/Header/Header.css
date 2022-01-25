@@ -39,6 +39,7 @@
 
 .IconRow {
   color:var(--secondary);
+  margin-bottom: 3vh;
 }
 
 .Icon {

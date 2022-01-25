@@ -25,7 +25,7 @@ function Experience() {
                             <p>- Organized the designing, purchasing and distribution of our custom T-shirts</p>
                             <p>Note: The hackathon did not end up happening due to the pandemic</p>
                         </Card>
-                        <Card img={qbuild} title="QBuild" description="JAN 21 - APR 21 (4 Months)" footer="Full Time" text="Application Developer">
+                        <Card img={qbuild} title="QBuild" description="JAN 21 - APR 21 (4 Months)" footer="Full Time Intern" text="Application Developer">
                             <p>- Added new features and fixed bugs in the company's CRM</p>
                             <p>- Worked closely with change ticket submitters to fully understand the ticket requirements</p>
                             <p>- Improved SQL CTE and SP runtimes by up to 30 times</p>
@@ -36,6 +36,12 @@ function Experience() {
                             <p>- Created a bot which fetches Pokemon data from PokeApi (RESTful API)</p>
                             <p>- 100% uptime using Flask and UptimeRobot</p>
                             <p>Languages: Python <br/>Technologies: Repl.it, Discord.py, Flask, PokeApi</p>
+                        </Card>
+                        <Card img={qbuild} title="QBuild" description="SEPT 21 - DEC 21 (4 Months)" footer="Full Time Intern" text="Application Developer">
+                            <p>- Furthered our CAD to ERP integration system</p>
+                            <p>- Updated backend datafetching with asynchronous calls, leading to 9 fold reducitons in load times</p>
+                            <p>- Designed binary data transfer pipelines for seamless client to database image upload</p>
+                            <p>Languages: HTML, CSS, JS, C#, SQL <br/>Technologies: ASP.net, Telerik UI</p>
                         </Card>
                     </CardsContainer>
                 </div>

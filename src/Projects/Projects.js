@@ -9,7 +9,7 @@ function Projects() {
     let beeBrawlIcons = [{type:'fab',icon:'unity'},{type:'fas',icon:'hashtag'}];
     let yrhacksIcons = [{type:'fab',icon:'python'}]
     let beeBrawlSiteIcons = [{type:'fab',icon:'js'},{type:'fab',icon:'html5'},{type:'fab',icon:'css3-alt'},{type:'fab',icon:'bootstrap'}];
-    let textTrackerIcons = [{type:'fas', icon:'leaf'}];
+    let textTrackerIcons = [{type:'fas', icon:'leaf'},{type:'fab',icon:'js'},{type:'fab',icon:'node-js'}];
     return (
         <div className="Projects">
             <Section title="PROJECTS">
@@ -50,7 +50,10 @@ function Projects() {
                         <p>- Deployed the site live using Amazon Amplify (Currently offline, instead deployed on github pages)</p>
                     </ProjectCard>
                     <ProjectCard title="TextTracker" icons={textTrackerIcons} a="https://github.com/kenzoengineer/TextTracker">
-                        <p>- test</p>
+                        <p>- Coded a discord bot which allows users to track the occurances of words in their discord servers</p>
+                        <p>- Used MongoDB to store data in the cloud</p>
+                        <p>- Leveraged quickchart.js to generate minimalistic and visually pleasing charts</p>
+                        <p>- Designed the bot with scalability in mind, allowing the bot to service many servers and users at the same time</p>
                     </ProjectCard>
                 </div>
             </Section>

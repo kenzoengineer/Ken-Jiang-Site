@@ -3,7 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
-import ken from '../images/ken.png'
+import Modal from '../Common/Modal'
+import ken from '../images/ken_jpeg.jpg'
+import resumeimage from '../Header/resume.jpg'
 import React from 'react'
 library.add(fab, fas);
 
@@ -52,6 +54,14 @@ function IconRows() {
       <Icon icon="github" a="https://github.com/kenzoengineer" />
       <Icon icon="instagram" a="https://www.instagram.com/kenzoengineer/" />
       <Icon icon="artstation" a="https://www.artstation.com/kenzoengineer" />
+      {/* 
+      
+      TODO: Implement modal
+
+      <ResumeIcon/> 
+      <Modal width="40vw" height="auto">
+        <img style={{'max-width': "100%", 'height':'auto'}}src={resumeimage} />
+      </Modal> */}
     </div>
   );
 }
@@ -62,7 +72,15 @@ function Icon(props) {
     window.open(props.a, '_blank');
   }
   return (
-    <FontAwesomeIcon onClick={clicked} className="Icon" icon={['fab', props.icon]} />
+    <FontAwesomeIcon onClick={clicked} className="Icon" icon={["fab", props.icon]} />
+  );
+}
+function ResumeIcon(Props) {
+  function clicked(e) {
+    e.preventDefault();
+  }
+  return (
+    <FontAwesomeIcon onClick={clicked} className="Icon" icon={["fas", "file"]} />
   );
 }
 

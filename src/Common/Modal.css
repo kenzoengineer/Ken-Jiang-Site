@@ -1,0 +1,53 @@
+.Modal-Container {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    z-index: 1;
+}
+
+.Modal-Close {
+    position: relative;
+    top: 6.5vw;
+    left: 38.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6vw;
+    font-size: 1.5vw;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 20em;
+    background-color: var(--primary);
+    color: var(--background);
+    z-index: 4;
+    transition-duration: 200ms;
+}
+.Modal-Close:hover {
+    background-color: #ec8c8c;
+}
+
+.Modal-Overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00000059;
+    width: 100vw;
+    height: 200%;
+    z-index: 1;
+}
+.Modal-Window {
+    z-index: 2;
+}
+.Modal-Content {
+    margin-top: 5vw;
+    background-color: var(--tertiary);
+    padding: 1vmin;
+    display: flex;
+    border-radius: 5px;
+}
