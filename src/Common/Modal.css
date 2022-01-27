@@ -1,4 +1,4 @@
-.Modal-Container {
+.Modal-Container-shown {
     position: fixed;
     display: flex;
     justify-content: center;
@@ -9,9 +9,26 @@
     overflow-x: hidden;
     overflow-y: scroll;
     z-index: 1;
+    transition: 400ms;
+}
+.Modal-Container-hidden {
+    visibility: hidden;
+    position: fixed;
+    display: flex;
+    opacity: 0;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    z-index: 1;
+    transition: 400ms;
 }
 
 .Modal-Close {
+    cursor: pointer;
     position: relative;
     top: 6.5vw;
     left: 38.5vw;

@@ -38,6 +38,8 @@
 }
 
 .IconRow {
+  display: flex;
+  align-items: center;
   color:var(--secondary);
   margin-bottom: 3vh;
 }
@@ -45,6 +47,7 @@
 .Icon {
   margin-right:1em;
   cursor: pointer;
+  transition: 200ms;
 }
 
 .Icon:hover {
@@ -81,4 +84,22 @@ a, a:hover, a:visited, a:active a:link {
   0% {transform: translateY(0);}
   50% {transform: translateY(1em);}
   100% {transform: translateY(0);}
+}
+
+.Resume-Button-Container {
+  font-size: 0.8em;
+  border: 0.15em solid var(--secondary);
+  border-radius: 0.5em;
+  padding: 0.3em;
+  margin-right: 1em;
+  transition: 200ms;
+  cursor: pointer;
+}
+.Resume-Button-Container:hover {
+  color:var(--primary);
+  border-color: var(--primary);
+  transition: 200ms;
+}
+.Resume-Button-Text {
+  margin-left: -0.5em;
 }

@@ -6,7 +6,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import Modal from '../Common/Modal'
 import ken from '../images/ken_jpeg.jpg'
 import resumeimage from '../Header/resume.jpg'
-import React from 'react'
+import React, {useState} from 'react'
 library.add(fab, fas);
 
 function Header() {
@@ -50,18 +50,11 @@ function Body(props) {
 function IconRows() {
   return (
     <div className="IconRow">
+      <ResumeIcon/>
       <Icon icon="linkedin" a="https://www.linkedin.com/in/ken-jiang/" />
       <Icon icon="github" a="https://github.com/kenzoengineer" />
       <Icon icon="instagram" a="https://www.instagram.com/kenzoengineer/" />
       <Icon icon="artstation" a="https://www.artstation.com/kenzoengineer" />
-      {/* 
-      
-      TODO: Implement modal
-
-      <ResumeIcon/> 
-      <Modal width="40vw" height="auto">
-        <img style={{'max-width': "100%", 'height':'auto'}}src={resumeimage} />
-      </Modal> */}
     </div>
   );
 }
@@ -75,12 +68,19 @@ function Icon(props) {
     <FontAwesomeIcon onClick={clicked} className="Icon" icon={["fab", props.icon]} />
   );
 }
-function ResumeIcon(Props) {
+function ResumeIcon(props) {
+  let [hidden, setHidden] = useState("hidden");
   function clicked(e) {
-    e.preventDefault();
+    setHidden("shown");
   }
   return (
-    <FontAwesomeIcon onClick={clicked} className="Icon" icon={["fas", "file"]} />
+    <div className="Resume-Button-Container" >
+      <FontAwesomeIcon className="Icon" icon={["fas", "file"]} onClick={clicked}/>
+      <span className="Resume-Button-Text">Resume</span>
+      <Modal width="40vw" height="auto" state={hidden} closeHandler={() => {setHidden("hidden");}}>
+        <img style={{'maxWidth': "100%", 'height':'auto'}}src={resumeimage} />
+      </Modal>
+    </div>
   );
 }
 
