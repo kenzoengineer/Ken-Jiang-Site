@@ -23,6 +23,7 @@
     }
     .Vertical-Text {
         writing-mode: horizontal-tb;
+        transform: none;
         font-size: 2rem;
         padding: 0 0 0 1vmin;
     }

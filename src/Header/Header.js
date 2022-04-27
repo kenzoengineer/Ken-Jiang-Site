@@ -5,9 +5,14 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import Modal from '../Common/Modal'
 import ken from '../images/ken_jpeg.jpg'
-import resumeimage from '../Header/resume.jpg'
-import React, {useState} from 'react'
+//import resumeimage from '../Header/resume.jpg'
+import resumePdf from '../Header/resume.pdf';
+import { pdfjs } from 'react-pdf';
+import { Document, Page } from 'react-pdf'
+import React, {useLayoutEffect, useState} from 'react'
+
 library.add(fab, fas);
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 function Header() {
   return (
@@ -48,7 +53,7 @@ function Body(props) {
 }
 
 function IconRows() {
-  return (
+  return (        
     <div className="IconRow">
       <ResumeIcon/>
       <Icon icon="linkedin" a="https://www.linkedin.com/in/ken-jiang/" />
@@ -68,19 +73,33 @@ function Icon(props) {
     <FontAwesomeIcon onClick={clicked} className="Icon" icon={["fab", props.icon]} />
   );
 }
-function ResumeIcon(props) {
-  let [hidden, setHidden] = useState("hidden");
-  function clicked(e) {
-    setHidden("shown");
-  }
+
+function WindowWidth() {
+  const [width, setWidth] = useState(window.innerWidth);
+  useLayoutEffect(() => {
+    window.addEventListener('resize',() => {setWidth(window.innerWidth)});
+    return () => {window.removeEventListener('resize', () => {setWidth(window.innerWidth)})};
+  }, [])
+  return width < 1000 ? [width *0.9 - 10, "90vw"]: [width * 0.6 - 10, "60vw"] ;
+}
+
+function ResumeIcon() {
+  const [show, setShow] = useState("hidden");
+  const handleShow = () => setShow("shown");
+  const handleHide = () => setShow("hidden");
   return (
-    <div className="Resume-Button-Container" >
-      <FontAwesomeIcon className="Icon" icon={["fas", "file"]} onClick={clicked}/>
+    <>
+    <div className="Resume-Button-Container" onClick={handleShow}>
+      <FontAwesomeIcon className="Icon ResumeIcon" icon={["fas", "file"]} />
       <span className="Resume-Button-Text">Resume</span>
-      <Modal width="40vw" height="auto" state={hidden} closeHandler={() => {setHidden("hidden");}}>
-        <img style={{'maxWidth': "100%", 'height':'auto'}}src={resumeimage} />
-      </Modal>
     </div>
+    <Modal width={WindowWidth()[1]} state={show} closeHandler={handleHide}>
+        <Document file={resumePdf}>
+          <Page pageNumber={1} width={ WindowWidth()[0]}>
+          </Page>
+        </Document>
+    </Modal>
+    </>
   );
 }
 

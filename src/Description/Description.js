@@ -28,6 +28,7 @@ function Content() {
                 <Icon type="fab" icon="js" alt="JavaScript"/>
                 <Icon type="fab" icon="html5" alt="HTML"/>
                 <Icon type="fab" icon="css3-alt" alt="CSS"/>
+                <Icon type="fas" icon="copyright" alt="C++"/>
                 <Icon type="fab" icon="java" alt="Java"/>
                 <Icon type="fab" icon="python" alt="Python"/>
                 <Icon type="fas" icon="hashtag" alt="C#"/>

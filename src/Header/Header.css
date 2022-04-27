@@ -66,10 +66,17 @@ a, a:hover, a:visited, a:active a:link {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1200px) {
   .Title-Img {
     height: 40vmin;
     width: 40vmin;
+  }
+  .Resume-Button-Text {
+    margin: 0!important;
+  }
+  .ResumeIcon {
+    display: none!important;
+    margin: 0;
   }
 }
 
@@ -103,3 +110,6 @@ a, a:hover, a:visited, a:active a:link {
 .Resume-Button-Text {
   margin-left: -0.5em;
 }
+
+.react-pdf__Page__textContent {display: none;}
+.react-pdf__Page__annotations {display:none;}

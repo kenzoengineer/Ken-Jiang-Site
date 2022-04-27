@@ -5,6 +5,7 @@ import staples from '../svgs/staples.svg'
 import qbuild from '../svgs/qbuild.svg'
 import yrhacks from '../svgs/yrhacks.svg'
 import hillhacks from '../svgs/hillhacks.svg'
+import shoplogix from '../svgs/shoplogix.svg'
 function Experience() {
     return (
         <div className="Experience">
@@ -39,9 +40,12 @@ function Experience() {
                         </Card>
                         <Card img={qbuild} title="QBuild" description="SEPT 21 - DEC 21 (4 Months)" footer="Full Time Intern" text="Application Developer">
                             <p>- Furthered our CAD to ERP integration system</p>
-                            <p>- Updated backend datafetching with asynchronous calls, leading to 9 fold reducitons in load times</p>
+                            <p>- Updated backend data fetching with asynchronous calls, leading to 9 fold reductions in load times</p>
                             <p>- Designed binary data transfer pipelines for seamless client to database image upload</p>
                             <p>Languages: HTML, CSS, JS, C#, SQL <br/>Technologies: ASP.net, Telerik UI</p>
+                        </Card>
+                        <Card img={shoplogix} title="Shoplogix" description="MAY 22 - Current" footer="Full Time Intern" text="Software Developer">
+                            <p>- Current Position</p>
                         </Card>
                     </CardsContainer>
                 </div>
