@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/Ken-Jiang-Site/static/css/main.f76c0e28.chunk.css",
-    "main.js": "/Ken-Jiang-Site/static/js/main.7f6bee4b.chunk.js",
-    "main.js.map": "/Ken-Jiang-Site/static/js/main.7f6bee4b.chunk.js.map",
-    "runtime-main.js": "/Ken-Jiang-Site/static/js/runtime-main.9ec501e1.js",
-    "runtime-main.js.map": "/Ken-Jiang-Site/static/js/runtime-main.9ec501e1.js.map",
-    "static/js/2.4e9f67ec.chunk.js": "/Ken-Jiang-Site/static/js/2.4e9f67ec.chunk.js",
-    "static/js/2.4e9f67ec.chunk.js.map": "/Ken-Jiang-Site/static/js/2.4e9f67ec.chunk.js.map",
-    "static/js/3.468cdd10.chunk.js": "/Ken-Jiang-Site/static/js/3.468cdd10.chunk.js",
-    "static/js/3.468cdd10.chunk.js.map": "/Ken-Jiang-Site/static/js/3.468cdd10.chunk.js.map",
+    "main.css": "/Ken-Jiang-Site/static/css/main.6d576f88.chunk.css",
+    "main.js": "/Ken-Jiang-Site/static/js/main.9b11db5a.chunk.js",
+    "main.js.map": "/Ken-Jiang-Site/static/js/main.9b11db5a.chunk.js.map",
+    "runtime-main.js": "/Ken-Jiang-Site/static/js/runtime-main.f2e234a6.js",
+    "runtime-main.js.map": "/Ken-Jiang-Site/static/js/runtime-main.f2e234a6.js.map",
+    "static/js/2.bae79200.chunk.js": "/Ken-Jiang-Site/static/js/2.bae79200.chunk.js",
+    "static/js/2.bae79200.chunk.js.map": "/Ken-Jiang-Site/static/js/2.bae79200.chunk.js.map",
+    "static/js/3.e9085f0b.chunk.js": "/Ken-Jiang-Site/static/js/3.e9085f0b.chunk.js",
+    "static/js/3.e9085f0b.chunk.js.map": "/Ken-Jiang-Site/static/js/3.e9085f0b.chunk.js.map",
     "index.html": "/Ken-Jiang-Site/index.html",
-    "static/css/main.f76c0e28.chunk.css.map": "/Ken-Jiang-Site/static/css/main.f76c0e28.chunk.css.map",
-    "static/js/2.4e9f67ec.chunk.js.LICENSE.txt": "/Ken-Jiang-Site/static/js/2.4e9f67ec.chunk.js.LICENSE.txt",
+    "static/css/main.6d576f88.chunk.css.map": "/Ken-Jiang-Site/static/css/main.6d576f88.chunk.css.map",
+    "static/js/2.bae79200.chunk.js.LICENSE.txt": "/Ken-Jiang-Site/static/js/2.bae79200.chunk.js.LICENSE.txt",
     "static/media/blender.2a395b5c.svg": "/Ken-Jiang-Site/static/media/blender.2a395b5c.svg",
     "static/media/hillhacks.687355dd.svg": "/Ken-Jiang-Site/static/media/hillhacks.687355dd.svg",
     "static/media/ken_jpeg.e7f994b7.jpg": "/Ken-Jiang-Site/static/media/ken_jpeg.e7f994b7.jpg",
     "static/media/photoshop.d9a6f3a2.svg": "/Ken-Jiang-Site/static/media/photoshop.d9a6f3a2.svg",
     "static/media/qbuild.91384145.svg": "/Ken-Jiang-Site/static/media/qbuild.91384145.svg",
-    "static/media/resume.ad09bf20.jpg": "/Ken-Jiang-Site/static/media/resume.ad09bf20.jpg",
+    "static/media/resume.21958b46.pdf": "/Ken-Jiang-Site/static/media/resume.21958b46.pdf",
+    "static/media/shoplogix.aa78a0bc.svg": "/Ken-Jiang-Site/static/media/shoplogix.aa78a0bc.svg",
     "static/media/staples.0c5b33e5.svg": "/Ken-Jiang-Site/static/media/staples.0c5b33e5.svg",
     "static/media/yrhacks.a8b6cf26.svg": "/Ken-Jiang-Site/static/media/yrhacks.a8b6cf26.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9ec501e1.js",
-    "static/js/2.4e9f67ec.chunk.js",
-    "static/css/main.f76c0e28.chunk.css",
-    "static/js/main.7f6bee4b.chunk.js"
+    "static/js/runtime-main.f2e234a6.js",
+    "static/js/2.bae79200.chunk.js",
+    "static/css/main.6d576f88.chunk.css",
+    "static/js/main.9b11db5a.chunk.js"
   ]
 }
