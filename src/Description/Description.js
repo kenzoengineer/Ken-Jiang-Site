@@ -18,7 +18,7 @@ function Content() {
         <div className="Content-Container">
             <div className="Word-Block">
                 <p>
-                    Welcome to my website! The purpose of this site is to serve as a portfolio for all the work I have done. I have yet to find a specific area of programming I am very passionate about, so I am trying different things. Having worked with code for many years, I have built a solid background in different fields such as web development, game design and competitive coding. In my spare time, I like playing video games, the visual arts and playing the piano.
+                Welcome to my Portfolio! I'm currently looking for Winter 2023 internships in software. I have experience doing front end, back end, game dev and graphic design related projects. In my spare time I like playting video games, drawing and playing the piano.
                 </p>
                 <p>
                     Below, I showcase the skills I have. <span className="Important">Hover over </span>the icons below to find out what each icon represents.
