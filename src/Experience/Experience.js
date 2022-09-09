@@ -45,7 +45,11 @@ function Experience() {
                             <p>Languages: HTML, CSS, JS, C#, SQL <br/>Technologies: ASP.net, Telerik UI</p>
                         </Card>
                         <Card img={shoplogix} title="Shoplogix" description="MAY 22 - Current" footer="Full Time Intern" text="Software Developer">
-                            <p>- Current Position</p>
+                            <p>- Contributed to the development of our manufacturing data visualization software</p>
+                            <p>- Created and validated unit tests in Jest and Emzyme, achieving 96% code coverage over 5+ features</p>
+                            <p>- Built 5+ API endpoints in C# using Nancy, fetching data from PostgreSQL with response times under 50ms</p>
+                            <p>- Developed a settings management system with inheritance and overriding for over 10 views, taking advantage of tree and map data structures</p>
+                            <p>-Synthesized a React component to parse 10+ custom URL parameters, simplifying product deployment to clients</p>
                         </Card>
                     </CardsContainer>
                 </div>
