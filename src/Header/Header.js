@@ -5,7 +5,6 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import Modal from '../Common/Modal'
 import ken from '../images/ken_jpeg.jpg'
-//import resumeimage from '../Header/resume.jpg'
 import resumePdf from '../Header/resume.pdf';
 import { pdfjs } from 'react-pdf';
 import { Document, Page } from 'react-pdf'
